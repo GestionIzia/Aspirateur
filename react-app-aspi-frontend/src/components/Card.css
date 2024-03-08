@@ -1,0 +1,121 @@
+button {
+    border: none;
+    background: transparent;
+    margin: 0;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .card {
+    text-align: center;
+    display: flex;
+    margin: 15px;
+    max-width: 330px;
+    height: 205px;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.9); 
+    border: 1px solid #ccc; 
+     /*border-radius: 10px;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  
+  .btn-close-img {
+    width: 20px;
+    height: 20px;
+    top:0;
+    left:0;
+  }
+  
+  
+  .card-presentation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 254px;
+    height: 47px;
+    border: 30px #0000;
+    margin-bottom: 15px;
+  }
+  .card-jobtitle > h1{
+  
+    font-weight: bold;
+    color: #27357C;
+    text-align: left;
+    font-size: 18px
+  }
+.card-jobtitle:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+  .card-companie-logo, .card-companie-logo-img{
+    width: 50px;
+  }
+  
+  .card-companie {
+    background-color: #27357C;
+    padding: 5px; 
+    margin: 3px;
+    max-height: 22px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 19px;
+    margin-bottom: 10px;
+  }
+  .card-infos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold; 
+    height: 28px;
+    
+  }
+  
+  .card-infos > div {
+    width: auto;
+    padding: 4px;
+  
+    text-align: center;
+    background-color: #F9CF51;
+    color: #27357C;
+    border-radius: 19px;
+    margin: 0 15px 7px 0; 
+    padding: 4px 8px 4px 5px; 
+    margin: 0 10px 7px 0; 
+    font-size: 14px; 
+  }
+  
+   .card-contract-type-img, .card-date-img, .card-location-img {
+    width: 18px;
+    height: 18px;
+    align-content: baseline;
+    margin-right: 3px;
+  }
+  
+  .card-margin {
+  
+    align-items: center;
+    width: 10%;
+    height: 10;
+    top: 0;
+    right: 0;
+  }
+  
+  .card-like-img, .card-push-img ,.card-jobteaser-img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  
+  .card-push-img ,.card-jobteaser-img {
+  padding-left: 15%;
+  margin-top: 5px;
+  }
